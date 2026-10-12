@@ -67,16 +67,10 @@ class SoftwareArchitect {
 
 ### GitHub Analytics & Engineering Velocity
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Nicolas11Leon&show_icons=true&theme=tokyonight&hide_border=true" height="195" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nicolas11Leon&theme=tokyonight&hide_border=true" height="195" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas11Leon&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nicolas11Leon&show_icons=true&theme=tokyonight&hide_border=true" width="48.5%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nicolas11Leon&theme=tokyonight&hide_border=true" width="48.5%" />
+</p>
 
 ---
 
