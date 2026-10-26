@@ -95,12 +95,12 @@ class SoftwareArchitect {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nicolas11Leon&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&card_width=420" height="170" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas11Leon&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&card_width=420" height="170" alt="Most used languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=Nicolas11Leon&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&card_width=420" width="49%" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas11Leon&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&card_width=420" width="49%" alt="Most used languages" />
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nicolas11Leon&theme=tokyonight&hide_border=true&border_radius=10" height="195" alt="Contribution streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nicolas11Leon&theme=tokyonight&hide_border=true&border_radius=10" width="98%" alt="Contribution streak" />
 
 </div>
 
