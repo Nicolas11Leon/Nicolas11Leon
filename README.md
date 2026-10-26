@@ -10,6 +10,13 @@
 [![Email](https://img.shields.io/badge/Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leonparranicolas@gmail.com)
 [![Company](https://img.shields.io/badge/Organization-SAMO_Enterprises-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SAMOenterprises)
 
+<br/>
+
+**Software architect building production systems for real businesses.**<br/>
+Founder of SAMO: a multi-tenant ERP, POS and booking platform used daily by sports clubs and barbershops in Colombia.
+
+<sub>Open to **senior / architect roles**, **contract work** and **technical partnerships** — Flutter · Supabase / PostgreSQL · Clean Architecture · Security</sub>
+
 ---
 
 </div>
@@ -33,7 +40,13 @@ class SoftwareArchitect {
     return {
       'enterprise_ecosystem': 'SAMO (High-Concurrency Sports Club ERP & POS)',
       'architecture': 'Flutter Core + React Edge Frontends + Supabase (PostgreSQL)',
-      'status': 'Scaling multi-tenant operations & merchant loyalty networks',
+      'status': 'In production with real clubs; scaling multi-tenant operations',
+      'recently_shipped': [
+        'Per-club feature licensing (modules, trials, server-side enforcement)',
+        'Platform operations: club suspension and service notices',
+        'Verified online payments (signed webhooks) and scheduled email reports',
+        'Database-enforced privacy (RLS + column-level grants)',
+      ],
     };
   }
 }
@@ -59,9 +72,22 @@ class SoftwareArchitect {
 
 ### Featured Systems & Production Projects
 
-* **[SAMO Ecosystem (Showcase)](https://github.com/SAMOenterprises/samo-ecosystem-showcase)** — Enterprise facility management ecosystem, ACID booking engine, automated tournament brackets, dynamic ELO matchmaking, and Point of Sale (POS) with blind cash reconciliation.
-* **[Party App](https://github.com/Nicolas11Leon/Party)** — Social event and plan discovery marketplace engineered natively in **Kotlin**.
-* **[Distributed Systems & OS Architecture](https://github.com/Nicolas11Leon/Distribuidos)** — Concurrency, process synchronization, and socket networking laboratories in **C / Python**.
+| Project | What it is | Highlights |
+| :--- | :--- | :--- |
+| **[SAMO Ecosystem](https://github.com/SAMOenterprises/samo-ecosystem-showcase)** | Club ERP, POS and booking platform for sports clubs and barbershops, with a player app (ELO matchmaking, tournaments). **In production.** | Multi-tenant RLS, ACID RPCs, blind cash reconciliation, per-club module licensing, signed payment webhooks, **1,400+ automated tests**, architecture rules enforced by tests |
+| **[Party App](https://github.com/Nicolas11Leon/Party)** | Social event and plan discovery marketplace | Native **Kotlin** |
+| **[Distributed Systems & OS](https://github.com/Nicolas11Leon/Distribuidos)** | Concurrency, process synchronization and socket networking labs | **C / Python** |
+
+<details>
+<summary><b>What I can do for your team</b></summary>
+<br/>
+
+* **Design and ship end-to-end:** Flutter clients (mobile, web, desktop), Supabase/PostgreSQL backend, Edge Functions and edge-delivered landings.
+* **Make systems safe to run with real money:** RLS design, least-privilege access, staged and reversible database changes, verification before and after each release.
+* **Keep code maintainable:** Clean Architecture with BLoC, dependency inversion, and guardrails that fail the build when layers are violated.
+* **Test seriously:** unit, BLoC, widget and data-source tests with an in-memory backend, plus tests for serverless functions.
+
+</details>
 
 ---
 
@@ -84,6 +110,17 @@ class SoftwareArchitect {
     </td>
   </tr>
 </table>
+
+</div>
+
+---
+
+### Let's talk
+
+<div align="center">
+
+[![Email me](https://img.shields.io/badge/Email-leonparranicolas%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leonparranicolas@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-samoenterprises.site-00F0FF?style=for-the-badge&logo=google-chrome&logoColor=black)](https://samoenterprises.site)
 
 </div>
 
