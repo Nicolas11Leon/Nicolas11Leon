@@ -69,12 +69,21 @@ class SoftwareArchitect {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nicolas11Leon&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas11Leon&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nicolas11Leon&theme=tokyonight&hide_border=true" width="97%" />
+<table>
+  <tr>
+    <td align="center" valign="middle" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=Nicolas11Leon&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&card_width=420" width="420" height="170" alt="GitHub stats" />
+    </td>
+    <td align="center" valign="middle" width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas11Leon&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&card_width=420" width="420" height="170" alt="Most used languages" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="middle" colspan="2">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nicolas11Leon&theme=tokyonight&hide_border=true&border_radius=10" width="495" alt="Contribution streak" />
+    </td>
+  </tr>
+</table>
 
 </div>
 
