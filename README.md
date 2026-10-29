@@ -95,8 +95,8 @@ class SoftwareArchitect {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Nicolas11Leon&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&card_width=420&line_height=20" width="49%" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nicolas11Leon&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&card_width=420" width="49%" alt="Most used languages" />
+<img src="https://github-readme-stats-ebon-iota-21.vercel.app/api?username=Nicolas11Leon&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&card_width=420&line_height=20" width="49%" alt="GitHub stats" />
+<img src="https://github-readme-stats-ebon-iota-21.vercel.app/api/top-langs/?username=Nicolas11Leon&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&card_width=420" width="49%" alt="Most used languages" />
 
 <br/>
 
