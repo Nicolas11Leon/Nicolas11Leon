@@ -95,12 +95,12 @@ class SoftwareArchitect {
 
 <div align="center">
 
-<img src="https://github-readme-stats-ebon-iota-21.vercel.app/api?username=Nicolas11Leon&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&card_width=420&line_height=20" width="49%" alt="GitHub stats" />
-<img src="https://github-readme-stats-ebon-iota-21.vercel.app/api/top-langs/?username=Nicolas11Leon&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&card_width=420" width="49%" alt="Most used languages" />
+<img src="assets/stats.svg" width="49%" alt="GitHub stats" />
+<img src="assets/top-langs.svg" width="49%" alt="Most used languages" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Nicolas11Leon&theme=tokyonight&hide_border=true&border_radius=10" width="98%" alt="Contribution streak" />
+<img src="assets/streak.svg" width="98%" alt="Contribution streak" />
 
 </div>
 
