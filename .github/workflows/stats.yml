@@ -1,0 +1,50 @@
+name: Actualizar tarjetas de estadisticas
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stats
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+
+      - name: Descargar tarjetas sin cache
+        run: |
+          set -euo pipefail
+          user="Nicolas11Leon"
+          base="https://github-readme-stats-ebon-iota-21.vercel.app"
+          t="$(date +%s)"
+          mkdir -p assets tmp
+          descargar() {
+            # --fail: un error HTTP no produce archivo; solo se acepta un SVG de verdad.
+            curl --fail --silent --show-error --location --max-time 60 "$2" -o "tmp/$1"
+            grep -q '<svg' "tmp/$1"
+            echo "ok $1"
+          }
+          descargar stats.svg "$base/api?username=$user&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&card_width=420&line_height=20&t=$t"
+          descargar top-langs.svg "$base/api/top-langs/?username=$user&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&card_width=420&t=$t"
+          descargar streak.svg "https://github-readme-streak-stats.herokuapp.com/?user=$user&theme=tokyonight&hide_border=true&border_radius=10&t=$t"
+          mv tmp/*.svg assets/
+
+      - name: Guardar solo si cambio
+        run: |
+          if [ -n "$(git status --porcelain assets)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets
+            git commit -m "Actualizar tarjetas de estadisticas"
+            git push
+          else
+            echo "Sin cambios"
+          fi
