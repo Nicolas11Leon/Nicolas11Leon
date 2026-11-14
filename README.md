@@ -8,7 +8,12 @@
 [![Website](https://img.shields.io/badge/Portfolio-00F0FF?style=for-the-badge&logo=google-chrome&logoColor=black)](https://samoenterprises.site)
 [![Email](https://img.shields.io/badge/Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leonparranicolas@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Nicolas11Leon-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nicolas11Leon)
-[![Organization](https://img.shields.io/badge/Organization-SAMO_Enterprises-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SAMOenterprises)
+
+<br/>
+
+[![SAMO Enterprises](https://img.shields.io/badge/Organization-SAMO_Enterprises-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SAMOenterprises)
+[![Trama-AS](https://img.shields.io/badge/Organization-Trama--AS_(MANI)-0366d6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Trama-AS)
+[![SR-PIZZA](https://img.shields.io/badge/Organization-SR--PIZZA-B20000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SR-PIZZA)
 
 <br/>
 
@@ -43,7 +48,7 @@ class SystemsArchitect {
       'flagship_ecosystem': 'S.A.M.O Match (Commercial Sports Management & Booking)',
       'deployments': ['Google Play Store', 'Apple App Store', 'Web Platform'],
       'multiplatform_suites': ['MANI Ecosystem (Flutter Web & Mobile)', 'Tunner (Acoustic Pitch Engine)'],
-      'backend_architectures': ['MANI (.NET, Node.js, Java Services)', 'Sr. Pizza Commercial Logistics'],
+      'backend_architectures': ['MANI (.NET, Node.js, Java, API Gateway)', 'Sr. Pizza Omnichannel Platform'],
       'quality_standards': '1,400+ automated unit, widget, and integration tests with zero blocking defects',
     };
   }
@@ -73,9 +78,9 @@ class SystemsArchitect {
 
 | System / Repository | Domain & Architecture Stack | Engineering Highlights |
 | :--- | :--- | :--- |
-| **[S.A.M.O Match](https://github.com/SAMOenterprises/samo-ecosystem-showcase)**<br/><sub>[samoenterprises.site](https://samoenterprises.site)</sub> | **Commercial Sports Ecosystem**<br/>`Flutter` `BLoC` `PostgreSQL` `Supabase` `freeRASP` | Commercially deployed on **Google Play Store** and **Apple App Store**. Multi-tenant club ERP/POS with real-time cash reconciliation, atomic PL/pgSQL procedures preventing race conditions, dynamic ELO ranking engine, bracket seeding for tournaments, signed payment webhooks, and 1,400+ automated tests. |
-| **MANI Ecosystem**<br/><sub>Multi-Tenant Service Operations</sub> | **End-to-End Enterprise Architecture**<br/>`Flutter` `Node.js` `.NET` `Java` | Multi-tenant service platform managing client-ally operational lifecycles. Architected across decoupled services:<br/>&bull; **[MANI-Flutter](https://github.com/Nicolas11Leon/MANI-Flutter):** Multiplatform client (Web & Mobile) with Clean Architecture and BLoC.<br/>&bull; **MANI-Node:** High-throughput REST API and event coordination in Node.js.<br/>&bull; **MANI-.NET:** Enterprise domain service and transactional persistence in C# / .NET.<br/>&bull; **MANI-Java:** Robust data processing and backend worker services. |
-| **Sr. Pizza Operations Showcase** | **Real-Time Delivery Logistics & Dispatch**<br/>`Node.js` `Express` `PostgreSQL` `REST APIs` | Production-grade commercial restaurant logistics and order management platform. Features real-time kitchen order ticketing, automated delivery driver dispatching, authenticated RESTful APIs, and normalized relational database schemas with zero transaction loss during peak traffic. |
+| **[S.A.M.O Match](https://github.com/SAMOenterprises/samo-ecosystem-showcase)**<br/><sub>[samoenterprises.site](https://samoenterprises.site) &bull; [SAMO Enterprises](https://github.com/SAMOenterprises)</sub> | **Commercial Sports Ecosystem**<br/>`Flutter` `BLoC` `PostgreSQL` `Supabase` `freeRASP` | Commercially deployed on **Google Play Store** and **Apple App Store**. Multi-tenant club ERP/POS with real-time cash reconciliation, atomic PL/pgSQL procedures preventing race conditions, dynamic ELO ranking engine, bracket seeding for tournaments, signed payment webhooks, and 1,400+ automated tests. |
+| **[MANI Ecosystem](https://github.com/Trama-AS)**<br/><sub>[Trama-AS Organization](https://github.com/Trama-AS)</sub> | **End-to-End Enterprise Architecture**<br/>`Flutter` `Node.js` `.NET` `Java` `API Gateway` | Multi-tenant service operations platform managing client-ally lifecycles. Architected across decoupled services:<br/>&bull; **[MANI-Flutter](https://github.com/Trama-AS/MANI-Flutter):** Multiplatform client (Web & Mobile) with Clean Architecture and BLoC.<br/>&bull; **[MANI-Node](https://github.com/Trama-AS/MANI-Node):** High-throughput REST API and event coordination in Node.js.<br/>&bull; **[MANI-.NET](https://github.com/Trama-AS/MANI-.NET):** Enterprise domain service and transactional persistence in C# / .NET.<br/>&bull; **[MANI-Java](https://github.com/Trama-AS/MANI-Java):** Robust data processing and backend worker services.<br/>&bull; **[MANI-APIGateway](https://github.com/Trama-AS/MANI-APIGateway):** Centralized ingress routing and authentication enforcement. |
+| **[Sr. Pizza Operations Showcase](https://github.com/SR-PIZZA/sr-pizza)**<br/><sub>[SR-PIZZA Organization](https://github.com/SR-PIZZA)</sub> | **Real-Time Delivery Logistics & Dispatch**<br/>`Node.js` `Express` `PostgreSQL` `WebSockets` | Production-grade omnichannel restaurant operations and street-level dispatch platform. Features real-time kitchen order ticketing (KDS), automated delivery driver allocation via low-latency WebSockets (<50ms), secure JWT RBAC authentication, and normalized PostgreSQL schemas with 89 E2E use cases verified. |
 | **[Tunner](https://github.com/Nicolas11Leon/Tunner)** | **Acoustic Pitch Engine & Music Platform**<br/>`Flutter` `Dart` `Digital Signal Processing` | High-precision open-source musical pitch detection engine, multi-instrument/vocal tuner, and interactive sheet music transcription platform designed for real-time low-latency mobile audio processing. |
 | **Airdrift (Indie Game)** | **Physics Simulation & Performance Tuning**<br/>`Unity 3D` `C#` `Blender 3D` | Lead Developer for indie racing video game. Engineered vehicle physics algorithms, responsive menus, performance profiling at 60 FPS, and custom 3D asset modeling in Blender. |
 
