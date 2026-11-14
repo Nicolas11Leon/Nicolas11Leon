@@ -12,10 +12,10 @@
 
 <br/>
 
-**Systems Engineer specializing in high-performance Multiplatform Software Development (Mobile & Web), Distributed Systems, and Cloud Architecture.**<br/>
-Lead Architect and Developer with commercial software deployed on Google Play Store and Apple App Store, building scalable architectures with Clean Architecture, Domain-Driven Design (DDD), and strict concurrency control.
+**Systems Engineer specializing in high-performance Multiplatform Software Development (Mobile & Web), Scalable Backends, and Cloud Architecture.**<br/>
+Lead Architect and Software Engineer with commercial systems deployed on Google Play Store and Apple App Store. Focused on Clean Architecture, Domain-Driven Design (DDD), and strict transactional concurrency.
 
-<sub>Focus: Cross-Platform (Flutter · Compose Multiplatform · React) | Backend (.NET · Node.js · PostgreSQL / Supabase) | Cloud & Security (Google Cloud · CI/CD · freeRASP)</sub>
+<sub>Focus: Cross-Platform (Flutter · Compose Multiplatform · React) | Enterprise Backend (.NET · Node.js · Java · PostgreSQL / Supabase) | Cloud & Security (Google Cloud · CI/CD · freeRASP)</sub>
 
 ---
 
@@ -32,19 +32,19 @@ class SystemsArchitect {
 
   final List<String> architecturalPrinciples = [
     'Clean Architecture & Domain-Driven Design (DDD)',
-    'Single-source Multiplatform codebases with reactive state management (BLoC)',
+    'Single-source Multiplatform clients with reactive state management (BLoC)',
     'ACID transactional concurrency and race condition mitigation',
     'Defense-in-depth: Runtime Mobile Security (freeRASP) and Multi-tenant RLS',
     'Automated Quality Governance (SonarQube, GitFlow, DoR & DoD, CI/CD)',
   ];
 
-  Map<String, dynamic> activeWorkloads() {
+  Map<String, dynamic> activeProductionWorkloads() {
     return {
-      'production_ecosystem': 'S.A.M.O Match (Sports Management & Venue Booking Platform)',
+      'flagship_ecosystem': 'S.A.M.O Match (Commercial Sports Management & Booking)',
       'deployments': ['Google Play Store', 'Apple App Store', 'Web Platform'],
-      'multiplatform_platforms': ['MANI-Flutter (Service Ops)', 'Tunner (Acoustic Pitch Engine)'],
-      'cloud_backend_services': ['.NET Web APIs', 'Node.js Microservices', 'Serverless EdTech Architecture'],
-      'quality_standards': '1,400+ automated unit, widget, and integration tests with zero blocking regressions',
+      'multiplatform_suites': ['MANI Ecosystem (Flutter Web & Mobile)', 'Tunner (Acoustic Pitch Engine)'],
+      'backend_architectures': ['MANI (.NET, Node.js, Java Services)', 'Sr. Pizza Commercial Logistics'],
+      'quality_standards': '1,400+ automated unit, widget, and integration tests with zero blocking defects',
     };
   }
 }
@@ -59,9 +59,9 @@ class SystemsArchitect {
 | Layer | Technologies & Tools |
 | :--- | :--- |
 | **Multiplatform & Frontend** | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![BLoC](https://img.shields.io/badge/BLoC_Pattern-8A2BE2?style=flat-square) ![Compose Multiplatform](https://img.shields.io/badge/Compose_Multiplatform-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white) ![React](https://img.shields.io/badge/React_18-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white) ![HTML5/CSS3](https://img.shields.io/badge/HTML5%2FCSS3-E34F26?style=flat-square&logo=html5&logoColor=white) |
-| **Backend & APIs** | ![.NET](https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![RESTful APIs](https://img.shields.io/badge/RESTful_APIs-02569B?style=flat-square) ![Webhooks](https://img.shields.io/badge/Signed_Webhooks-4A154B?style=flat-square) |
+| **Backend & Services** | ![.NET](https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![RESTful APIs](https://img.shields.io/badge/RESTful_APIs-02569B?style=flat-square) ![Webhooks](https://img.shields.io/badge/Signed_Webhooks-4A154B?style=flat-square) |
 | **Databases & Multi-Tenancy** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![PL/pgSQL](https://img.shields.io/badge/PL%2FpgSQL_RPCs-336791?style=flat-square) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Row Level Security](https://img.shields.io/badge/Row_Level_Security_(RLS)-green?style=flat-square) |
-| **Languages** | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-CC292B?style=flat-square) |
+| **Languages** | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-CC292B?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) |
 | **Cloud, DevOps & QA** | ![Google Cloud](https://img.shields.io/badge/Google_Cloud_Platform-4285F4?style=flat-square&logo=googlecloud&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white) ![GitFlow](https://img.shields.io/badge/GitFlow-F05032?style=flat-square&logo=git&logoColor=white) ![freeRASP](https://img.shields.io/badge/freeRASP_Security-D32F2F?style=flat-square) |
 | **Architecture & Simulation** | ![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-black?style=flat-square) ![DDD](https://img.shields.io/badge/Domain--Driven_Design-1565C0?style=flat-square) ![Unity](https://img.shields.io/badge/Unity_3D-000000?style=flat-square&logo=unity&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white) ![Arduino/ESP32](https://img.shields.io/badge/ESP32%20%2F%20Arduino-00979D?style=flat-square&logo=arduino&logoColor=white) |
 
@@ -69,18 +69,15 @@ class SystemsArchitect {
 
 ---
 
-### Production Work & Featured Repositories
+### Featured Systems & Commercial Showcases
 
-| Repository / System | Scope & Primary Technologies | Architectural Highlights |
+| System / Repository | Domain & Architecture Stack | Engineering Highlights |
 | :--- | :--- | :--- |
-| **[S.A.M.O Match](https://github.com/SAMOenterprises/samo-ecosystem-showcase)**<br/><sub>[samoenterprises.site](https://samoenterprises.site)</sub> | **Cross-Platform Mobile & Web Ecosystem**<br/>`Flutter` `BLoC` `PostgreSQL` `Supabase` `freeRASP` | Commercially deployed on **Google Play Store** and **Apple App Store**. Multi-tenant club ERP/POS with real-time cash reconciliation, atomic PL/pgSQL procedures preventing race conditions, dynamic ELO ranking engine, bracket seeding for tournaments, signed payment webhooks, and 1,400+ automated tests. |
-| **[MANI-Flutter](https://github.com/Nicolas11Leon/MANI-Flutter)** | **Multi-Tenant Operations Platform**<br/>`Flutter` `Node.js` `REST APIs` `Multiplatform` | Complete client-ally service lifecycle management platform. Cross-platform client for web and mobile with decoupled modular domain layers and authenticated backend services in Node.js. |
-| **[Tunner](https://github.com/Nicolas11Leon/Tunner)** | **Acoustic Pitch Engine & Music Platform**<br/>`Flutter` `Dart` `Digital Signal Processing` | High-precision open-source musical pitch detection engine, multi-instrument/vocal tuner, and interactive sheet music transcription platform designed for real-time mobile performance. |
-| **[personapi-dotnet](https://github.com/Nicolas11Leon/personapi-dotnet)** | **Enterprise Backend Service**<br/>`C#` `.NET` `Entity Framework` `MVC / DAO` | Robust N-tier monolithic and layered architecture in .NET. Implements separation of concerns through MVC and Data Access Object (DAO) patterns, relational persistence, and clean endpoint contracts. |
-| **[Plataforma-de-Educacion-Virtual](https://github.com/Nicolas11Leon/Plataforma-de-Educaci-n-Virtual)** | **High-Concurrency Serverless EdTech**<br/>`Astro` `Serverless Cloud` `Web Architecture` | Serverless architecture designed for high concurrent throughput (180,000 concurrent users). Integrates intelligent proctoring workflows and real-time automated assessment evaluation. |
-| **[Party](https://github.com/Nicolas11Leon/Party)** | **Social Event Marketplace**<br/>`Kotlin` `Android Studio` `Mobile Architecture` | Mobile social marketplace application for event planning and group coordination, developed natively for the Android platform. |
-| **[Distribuidos & Sistemas Operativos](https://github.com/Nicolas11Leon/Distribuidos)** | **Concurrency & Network Engineering**<br/>`Python` `C` `Sockets` `Multithreading` | Low-level distributed systems engineering, IPC mechanisms, socket communication, concurrent task management, and process synchronization. |
-| **Airdrift (Indie Game)** | **Physics Simulation & Performance Optimization**<br/>`Unity 3D` `C#` `Blender 3D` | Lead Developer for indie racing video game. Engineered vehicle physics algorithms, responsive menus, performance profiling, and 3D asset modeling in Blender. |
+| **[S.A.M.O Match](https://github.com/SAMOenterprises/samo-ecosystem-showcase)**<br/><sub>[samoenterprises.site](https://samoenterprises.site)</sub> | **Commercial Sports Ecosystem**<br/>`Flutter` `BLoC` `PostgreSQL` `Supabase` `freeRASP` | Commercially deployed on **Google Play Store** and **Apple App Store**. Multi-tenant club ERP/POS with real-time cash reconciliation, atomic PL/pgSQL procedures preventing race conditions, dynamic ELO ranking engine, bracket seeding for tournaments, signed payment webhooks, and 1,400+ automated tests. |
+| **MANI Ecosystem**<br/><sub>Multi-Tenant Service Operations</sub> | **End-to-End Enterprise Architecture**<br/>`Flutter` `Node.js` `.NET` `Java` | Multi-tenant service platform managing client-ally operational lifecycles. Architected across decoupled services:<br/>&bull; **[MANI-Flutter](https://github.com/Nicolas11Leon/MANI-Flutter):** Multiplatform client (Web & Mobile) with Clean Architecture and BLoC.<br/>&bull; **MANI-Node:** High-throughput REST API and event coordination in Node.js.<br/>&bull; **MANI-.NET:** Enterprise domain service and transactional persistence in C# / .NET.<br/>&bull; **MANI-Java:** Robust data processing and backend worker services. |
+| **Sr. Pizza Operations Showcase** | **Real-Time Delivery Logistics & Dispatch**<br/>`Node.js` `Express` `PostgreSQL` `REST APIs` | Production-grade commercial restaurant logistics and order management platform. Features real-time kitchen order ticketing, automated delivery driver dispatching, authenticated RESTful APIs, and normalized relational database schemas with zero transaction loss during peak traffic. |
+| **[Tunner](https://github.com/Nicolas11Leon/Tunner)** | **Acoustic Pitch Engine & Music Platform**<br/>`Flutter` `Dart` `Digital Signal Processing` | High-precision open-source musical pitch detection engine, multi-instrument/vocal tuner, and interactive sheet music transcription platform designed for real-time low-latency mobile audio processing. |
+| **Airdrift (Indie Game)** | **Physics Simulation & Performance Tuning**<br/>`Unity 3D` `C#` `Blender 3D` | Lead Developer for indie racing video game. Engineered vehicle physics algorithms, responsive menus, performance profiling at 60 FPS, and custom 3D asset modeling in Blender. |
 
 ---
 
@@ -120,6 +117,6 @@ class SystemsArchitect {
 
 <br/>
 
-<sub>Pontificia Universidad Javeriana &bull; Bogotá, Colombia &bull; Available for Senior Cross-Platform, Systems Architecture & Engineering Roles</sub>
+<sub>Pontificia Universidad Javeriana &bull; Bogotá, Colombia &bull; Available for Senior Multiplatform, Systems Architecture & Engineering Roles</sub>
 
 </div>
