@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Nicolas Leon's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 16, Total Commits  (last year) : 1674, Total PRs: 286, Total Issues: 88, Contributed to (last year): 11</desc>
+        <desc id="descId">Total Stars Earned: 16, Total Commits  (last year) : 1690, Total PRs: 286, Total Issues: 88, Contributed to (last year): 11</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 80.20964569588084;
+        stroke-dashoffset: 80.19211497222219;
       }
     }
   
